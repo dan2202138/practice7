@@ -8,8 +8,6 @@
  * 
  */
 
-import java.util.Random;
-
 public class PrimeNumbers {
 	public static void main(String[] args) {
 		/*
@@ -35,7 +33,7 @@ public class PrimeNumbers {
 				}
 			}
 			if(isPrime == true && i > 1) { 
-				System.out.println("Prime number found: " + i + "."); 
+				//System.out.println("Prime number found: " + i + "."); 
 				primeCount++; //add to the total
 			}
 			isPrime = true; //reset for next instance
